@@ -52,6 +52,18 @@ Requires: geoclue-provider-mlsdb
 # to improve camera startup times and the like
 #Requires: mapplauncherd-booster-silica-qt5-media
 
+# Add pre-installed some jolla/sailfish apps
+Requires: sailfish-office
+Requires: jolla-calculator
+Requires: jolla-email
+Requires: jolla-notes
+Requires: jolla-clock
+Requires: jolla-mediaplayer
+Requires: jolla-calendar
+Requires: sailfish-weather
+Requires: sailfish-utilities
+#Requires: sailfish-filemanager
+
 %description -n patterns-sailfish-device-configuration-x00td
 Pattern with packages for x00td configurations
 

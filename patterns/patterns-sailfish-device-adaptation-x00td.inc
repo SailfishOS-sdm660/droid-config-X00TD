@@ -85,6 +85,9 @@ Requires: geoclue-provider-hybris-hal
 #Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
+# For torch
+Requires: jolla-settings-system-flashlight
+
 %description -n patterns-sailfish-device-adaptation-x00td
 Pattern with packages for x00td HW Adaptation
 

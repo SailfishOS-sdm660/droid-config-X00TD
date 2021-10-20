@@ -27,7 +27,7 @@ Requires: dummy_netd
 Requires: bluebinder
 
 # Sensors
-Requires: hybris-libsensorfw-qt5-hal
+Requires: hybris-libsensorfw-qt5
 
 # Vibra
 Requires: ngfd-plugin-native-vibrator
@@ -72,7 +72,7 @@ Requires: jolla-devicelock-daemon-encsfa
 #Requires: sailfish-device-encryption
 
 # For GPS
-Requires: geoclue-provider-hybris-hal
+Requires: geoclue-provider-hybris
 
 # For FM radio on some QCOM devices
 #Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio

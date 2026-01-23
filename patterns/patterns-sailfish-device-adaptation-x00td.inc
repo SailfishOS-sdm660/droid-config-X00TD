@@ -42,7 +42,7 @@ Requires: pulseaudio-modules-droid-hidl
 # The -dummy-af is needed for newer devices that run the main
 # audiosystem-passthrough in qti mode (e.g. >=Android 9 Qualcomm),
 # to fix non-responding Camera app and/or voice during a phone call:
-#Requires: audiosystem-passthrough-dummy-af
+Requires: audiosystem-passthrough-dummy-af
 
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
@@ -64,6 +64,9 @@ Requires: usb-moded
 
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 Requires: rfkill
+
+## Fingerprint
+Requires: sailfish-fpd-community
 
 # enable device lock and allow to select untrusted software
 Requires: jolla-devicelock-daemon-encsfa
